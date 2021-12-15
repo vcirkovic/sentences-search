@@ -23,8 +23,8 @@ If there is more than one sentence containing the word, they should be ordered b
 
 # A Spring Boot API for retrieving sentences info.
 
-###Application Bootstrapping and Tech used 
-###This application was created using Spring Boot initializer.
+### Application Bootstrapping and Tech used 
+### This application was created using Spring Boot initializer.
 
 `
 Java 11
@@ -32,7 +32,7 @@ gradle
 lombok
 `
 
-##Running locally
+## Running locally
 With java
 Jar file can be created using command: mvn package,
 and the API can be run with: java -jar [jarFileInTargetFolder].jar
