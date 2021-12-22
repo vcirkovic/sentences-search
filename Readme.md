@@ -34,8 +34,11 @@ lombok
 
 ## Running locally
 With java
-Jar file can be created using command: mvn package,
-and the API can be run with: java -jar [jarFileInTargetFolder].jar
+Go to root folder of project.
+Jar file can be created using command:
+ ./gradlew build
+and the sentence search app can be run with: 
+java -jar build/lib/sentence-search-0.0.1.jar
 
 ## Points of improvement
 - Introduce caching mechanism in  sentence service to avoid loading from file
